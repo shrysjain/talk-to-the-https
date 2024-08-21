@@ -1,3 +1,4 @@
+import { ChatWrapper } from "@/components/ChatWrapper";
 import { ragChat } from "@/lib/rag-chat";
 import { redis } from "@/lib/redis";
 
@@ -22,6 +23,8 @@ const Page = async ({ params }: PageProps) => {
     reconstructedUrl
   );
 
+  const sessionId = "mock-session";
+
   if (!isAlreadyIndexed) {
     await ragChat.context.add({
       type: "html",
@@ -35,7 +38,7 @@ const Page = async ({ params }: PageProps) => {
     await redis.sadd("indexed-urls", reconstructedUrl);
   }
 
-  return <p>Hello</p>;
+  return <ChatWrapper sessionId={sessionId} />;
 };
 
 export default Page;
