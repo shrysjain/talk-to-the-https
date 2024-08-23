@@ -4,10 +4,10 @@ Talk to the HTTPS is an innovative tool that transforms any article into an inte
 
 ## Features
 
-AI Chatbot Interface: Seamlessly integrates with any article for real-time Q&A and discussion.
-Contextual Understanding: Provides relevant responses based on the content of the article.
-Easy Integration: Just prepend `ttthttps.vercel.app/` to any article URL to start chatting.
-Intuitive Design: User-friendly interface for a smooth and engaging experience.
+- AI Chatbot Interface: Seamlessly integrates with any article for real-time Q&A and discussion.
+- Contextual Understanding: Provides relevant responses based on the content of the article.
+- Easy Integration: Just prepend `ttthttps.vercel.app/` to any article URL to start chatting.
+- Intuitive Design: User-friendly interface for a smooth and engaging experience.
 
 ## Tech Stack
 
